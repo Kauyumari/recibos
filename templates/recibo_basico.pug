@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+    head
+        each val in stylesheets
+            style(type="text/css")= val
+        style(type="text/css").
+            html {
+                font-family: sans-serif
+            }
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Recibo
+    body 
+        br
+        div(class="is-flex is-justify-content-center")
+            div(class="card")
+                div(class="card-content has-text-centered")
+                    h2(class="title is-2").
+                        Emiliano Garza
+                    h6(class="title is-6").
+                        Soluciones y Consultoria de Software
+                    
+                
+            
